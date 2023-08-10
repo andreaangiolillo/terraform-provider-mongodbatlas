@@ -48,6 +48,7 @@ signs:
 release:
   name_template: "{{.Version}}"
   prerelease: auto
+  draft: true
 changelog:
   skip: false
   sort: asc
